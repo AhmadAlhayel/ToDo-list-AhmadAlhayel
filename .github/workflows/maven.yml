@@ -28,6 +28,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -B test package --file TDDproject/pom.xml
+      run: mvn -B test package --file todolist-AhmadAlhayell-main/TDDproject/pom.xml
 
   
